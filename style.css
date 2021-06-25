@@ -1,0 +1,130 @@
+*{ 
+    box-sizing: border-box;
+    list-style-type: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body,p,span{
+    font-family: 'Roboto', sans-serif;  
+}
+
+h1,h2,h3,h4,h5,h6,a{
+    font-family: 'Rubik', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+a{text-decoration: none;}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.fleft{
+    float: left;
+}
+.fright{
+    float: right;
+}
+.fixwidth{
+    width: 1170px;
+    margin: auto;
+   }
+/* === Default  CSS end ===*/
+
+/* news_letter_section start */
+.news_letter_section{
+    background-color: #f6f9fc;
+    padding: 60px;
+}
+
+.news_letter_box {
+	background-color: #3763eb;
+	padding: 54px 20px;
+	color: #fff;
+}
+.news_letter_box h3 {
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+
+.news_letter_box p {
+	font-size: 14px;
+	width: 50%;
+	margin-bottom: 18px;
+}
+
+.newsletter_right_contetent {
+	background-color: #fff;
+	padding: 25px;
+	box-shadow: 1px 3px 7px 1px #ddd;
+}
+
+.newsletter_right_contetent h3 {
+	font-size: 23px;
+	font-weight: 400;
+}
+.newsletter_right_contetent p {
+	font-size: 15px;
+	color: #767676;
+}
+
+
+/* client_logo */
+
+.service_text-left{
+    margin-top: 20px!important;
+}
+.service_text-left h5 {
+	color: #3763ebb8;
+	font-weight: 300;
+}
+.service_text-left h2 {
+	font-size: 33px;
+	width: 80%;
+	padding-bottom: 10px;
+    position: relative;
+    margin: 20px 0px;
+}
+.service_text-left h2::after {
+	content: "";
+	position: absolute;
+	width: 40px;
+	height: 2px;
+	background-color: #3763ebb8;
+	top: 105%;
+	bottom: 0;
+	left: 0;
+}
+.service_text-left p {
+	font-size: 15px;
+	color: #767676;
+	width: 90%;
+	
+}
+
+.client_logo {
+	border: 1px solid #ddd;
+	text-align: center;
+	padding: 40px;
+	width: 285px;
+}
+
+.logo_border {
+	border: 1px solid #ddd;
+	padding: 40px 15px;
+	text-align: center;
+    opacity: .4;
+    transition: 0.5s;
+	
+}
+
+.logo_border:hover{
+    opacity: 1;
+    display: inline-block;
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.329);
+}
